@@ -1,0 +1,42 @@
+1.For the given JSON iterate over for-in loop.
+
+var Employee ={
+    "Name":"Raja Ram",
+    "Age":"32",
+    "Emp ID":"12345",
+    "Department":"Quality Analyst",
+    "Salary":"30000"
+}
+
+for (const EmpKey in Employee) {
+    console.log(EmpKey,Employee[EmpKey]);    
+}
+
+=========================================================================================================================================================
+2.Create your own resume data in JSON format.
+
+let RajaRam ={
+    "Objective":"To enhance my knowldge",
+    "Education":"Bachelor of Engineering",
+    "Key Skills":"JavaScript",
+    "Designation":"Software Developer",
+    "Current CTC":"400000",
+    "Project Details":"Project Name",
+    "Period Duration":"2019-2022",
+    "Place":"Chennai"
+}
+
+=========================================================================================================================================================
+3.Read about the difference between window, screen, and document in javascript.
+
+Window:
+window object represents the browser window and is the global object in a web page. It provides access to the browser's DOM, 
+as well as other features such as the browser's history and location etc.
+
+Screen:
+The screen object represents the screen (mobile,laptop screens)of the device and provides information such as the screen's size and color depth.
+
+Document:
+The document object represents the web page itself and provides access to the HTML and CSS content of the page. 
+It is a property of the window object and can be accessed using window.document.
+ 
